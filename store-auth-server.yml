@@ -1,4 +1,4 @@
-server:
+00000server:
   port: 9092
 
 eureka:
@@ -30,7 +30,7 @@ spring:
         password: pass
         platform: mysql
         schema: classpath:/sql/schema.sql
-        url: jdbc:mysql://127.0.0.1:3306/oauth?verifyServerCertificate=false&useSSL=false&requireSSL=false
+        url: jdbc:mysql://localhost:3306/oauth?verifyServerCertificate=false&useSSL=false&requireSSL=false
         username: root
     jpa:
         database-platform: org.hibernate.dialect.MySQLDialect
