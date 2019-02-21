@@ -1,4 +1,4 @@
-00000server:
+server:
   port: 9092
 
 eureka:
